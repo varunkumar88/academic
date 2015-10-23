@@ -4,7 +4,7 @@
 	pageEncoding="ISO-8859-1"%>
 <% 
 
-String endpoint="http://localhost:5820/annex/reasoning_tutorial/sparql/query";
+String endpoint="http://localhost:5820/annex/indoorhub/sparql/query";
 
 String username="admin";
 String password="admin"; 

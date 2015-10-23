@@ -37,7 +37,7 @@
 						   			for(var i in json.results.bindings[j]) {
 						   				var obj = json.results.bindings[j][i];
 						   				
-						   				if(i=='adult'){
+						   				if(i=='room' && obj.value != 'http://www.w3.org/2002/07/owl#Nothing'){
 						   					row += "<td>" + obj.value +"</td>";
 						   				}  
 						   			}
